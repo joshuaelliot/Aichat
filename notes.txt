@@ -1,0 +1,8 @@
+DESARROLLO DE AI 
+
+Tecnologias usadas :
+
+* webworkers 
+*dependencias :
+*html
+*javascript

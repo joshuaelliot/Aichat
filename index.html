@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatgpt</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/nolan/64/chatgpt.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="https://img.icons8.com/nolan/64/chatgpt.png" alt="image of chatgpt">
+    <span>ChatGPT</span>
+  </header>
+  <main>
+    <ul>
+      <li class="message bot">
+        <span>
+          <img src="https://img.icons8.com/nolan/64/chatgpt.png" 
+          alt="">
+        </span>
+        <span>Esta es la respuesta del bot  asdnksncacmnknk</span>
+      </li>
+      <li class="message user">
+        <span>Tu</span>
+        <span>Esta es la respuesta del usuario</span>
+      </li>
+      <li class="message user">
+        <span>Tu</span>
+        <span>Esta es la respuesta del usuario
+          y es una  muy larga para viewport
+          que no se ronpe nada
+        </span>
+      </li>
+    </ul>
+  </main>
+  <form action="">
+    <input type="text" id="input-write" placeholder="Envia tu mensaje a chatgpt">
+    <button>
+      <img width="30" height="30" 
+      src="https://img.icons8.com/ios-glyphs/30/filled-sent.png" 
+      alt="filled-sent"/>
+    </button>
+  </form>
+  
+  <template id="message-template">
+    <li class="message">
+      <span class="first-span"></span>
+      <span class="second-span"></span>
+    </li>
+  </template>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
